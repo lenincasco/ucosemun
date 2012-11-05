@@ -1,0 +1,579 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url(../img/fondo.jpg);
+	font-family: helvetica;
+	text-align: center;
+	
+}
+/* HEADER */
+header{
+	background-color: #159C49;
+	width: 100%;
+	height: 10%;
+}
+a{
+	color:#fff;
+	text-decoration: none;
+	padding-left: 5px;
+}
+
+nav#menu{
+	margin-left: 9%;
+	padding-top: 2%;
+	position: absolute;
+	z-index: 2;
+
+}
+#menu_phone{
+	display: none;
+}
+nav#cambiar_idioma{
+	margin:0px auto;
+	padding-top: 2%;
+	position: absolute;
+	text-align: right;
+	width: 88%;
+	z-index: 2;
+}
+
+
+    /*IMG cuadros*/
+img{
+	width: 100%;
+	position: relative;
+}
+
+/* SECTION principal*/
+
+section#principal{
+	width: 100%;
+	overflow: hidden;
+
+}
+img#img_principal{
+	width: 100%;
+
+	/*DIV logo UCOSEMUN*/
+}
+div#logo{
+	margin-left: 8%;
+	width: 25%;
+	position: absolute;
+	top: 5em;
+	z-index: 2;
+}
+img#img_ucosemun{
+	width: 100%;
+
+}
+
+/* MATICE */
+div#matice1{
+	background-color: white;
+	border-bottom-right-radius:150px;
+	height: 30%;
+	margin-top: 9em;
+	opacity: 0.5;
+	position: absolute;
+	padding-top: 5px;
+	text-align: center;
+	width: 59%;
+	z-index: 3;
+}
+
+img#img_mini{
+	height: 98%;
+	width: 33%;
+}
+div#matice2{
+	background-color: white; 
+	border-top-left-radius:150px; 
+	height: 28%;
+	margin-top: 9em;
+	margin-left: 59%;
+	opacity: 0.5;
+	position: absolute;
+	padding-top: 2%;
+	text-align: center;
+	width: 41%;
+	z-index: 3;
+}
+
+div#contenedor{
+	background-color: #159C49;
+	border-radius: 15px;
+	height: 35px;
+	margin: -55px auto 0 auto;
+	position: relative;
+	width: 60%;
+	z-index: 2;
+}
+aside#redes_sociales{
+	text-align: right;
+}
+article#redes_sociales{
+	background-color: #0F753B;
+	border-radius: 15px;
+	display: inline-block;
+	height:35px;
+	position: relative;
+	text-align: center;	
+	width: 30%;
+	z-index: 3;
+}
+
+aside#buscar{
+	position: relative;
+	text-align: left;
+	top: -39px;
+}
+article#buscar{
+	background-color: #0F753B;
+	border-radius: 15px;
+	height: 35px;
+	position: relative;
+	text-align: center;	
+	width: 30%;
+	z-index: 3;
+}
+
+#fb, #t, #gmas, #yt{
+	width: 35px;
+}
+
+/*SECTION secundaria*/
+
+section#secundaria{
+	background-color: #fff;
+	display: block;
+	width: 80%;
+	margin: -5px auto;
+	padding-bottom: 1%;
+	overflow: hidden;
+}
+div#img_central{
+	width: 60%;
+	margin:0 auto;
+	display: inline-block;
+	position:relative;/*cambie de absoluta a relativa*/
+
+/*IMAGENES de empresas cafenica, feniagro, funica*/
+}
+div#img_empresas {
+	position: absolute;
+	left: 25%;
+	top:25%;
+	width: 50%;
+}
+div#img_empresas img{
+	display: inline-block;
+	padding-left: 5px;
+	width: 11%;
+
+}
+
+/*DIV menu_areas*/
+div#menu_areas{
+	background-color: #E9E9E9;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0% auto;
+	position: relative;
+	padding-top: 1%;
+	padding-right: 2%;
+	width: 94%;
+}
+
+/*ARTICLE servicios*/
+article#servicios{
+	display: inline-block;
+	border: solid red 1px;
+	margin-left: 5%;
+	position: relative;
+	text-align: left;
+	width: 20%;
+
+}
+img#servicios{
+	width:25%;
+}
+
+/*ARTICLE cooperativas*/
+article#cooperativas{
+	display: inline-block;
+	margin-left: 4%;
+	position: relative;
+	text-align: left;
+	width: 20%;
+}
+img#cooperativas{
+
+	width: 35%;
+}
+
+/*VIDEO*/
+div#video{
+	background-color: #E9E9E9;
+	border-radius: 5px;
+	display: inline-block;
+	margin-top: 2%;
+	position: relative;
+	padding: 2%;
+	text-align: left;
+	width: 94%;
+	height: 20em;
+}
+
+iframe#video{
+	width: 50%;
+	height: 100%;
+	position: relative;
+}
+aside#texto_video{
+	width: 45%;
+	position: relative;	
+	float: right;
+	margin-right: 1%;
+}
+
+/*PUBLICIDAD DE GOOGLE*/
+section#publicidad{
+	width: 100%;
+	padding-top: 10%;
+	padding-bottom: 3%;
+
+}
+
+/*EMBLEMA INFERIOR UCOSEMUN */
+div#icono{
+	width: 75px;
+	height: 75px;
+	margin-left: 45%;
+	margin-top: -3.5em;
+	position:absolute;
+}
+
+/*FOOTER*/
+footer{
+	background-color: #0F753B;
+	color: #fff;
+	font-family: helvetica;
+	width: 100%;
+
+}
+section#contacto{
+	width: 18.2%;
+	margin: 15px auto;
+	text-align: left;
+	vertical-align: top;
+}
+footer section {
+	display: inline-block;
+}
+
+footer section ul{
+	margin: 0 2em 0 0;
+	padding: 0;
+}
+
+p#ucosemun{
+	text-align: left;
+	padding-left: 1%;
+}
+
+#contacto ul li{
+	list-style: none;
+	line-height: 2em;
+}
+
+
+#contacto ul li div{
+	text-align: left;
+	padding-left: 40px;
+
+}
+
+#contacto form input, form textarea{
+	margin: 3px;
+	padding: 3px;
+	width: 80%;
+}
+
+#contacto ul li img{
+	
+	float: left;
+	width: 20px;
+}
+#contacto form button{
+	padding: 5px;
+	width: 30%;
+
+}
+#contacto{
+	padding-left:2em;
+}
+div#pie{
+	background-color: #119b48;
+	font-size: 80%;
+	height: 6%;
+	position: absolute;
+	padding-top: 1%;
+	width: 100%;
+	z-index: 2;
+}
+
+
+@media all and (max-width:1200px) {
+
+	div#matice1{
+	height: 150px;
+	width: 61%;
+}
+	div#matice2{
+	height: 144px;
+}
+	img#img_mini{
+	height: 144px;
+	width: 33%;
+	}
+}
+
+@media all and (max-width:1000px) {
+
+	div#matice1{
+	height: 150px;
+	margin-top: 6em;
+}
+	div#matice2{
+	height: 144px;
+	margin-top: 6em;
+}
+
+	div#logo{
+	width: 26%;
+	top: 3.35em;
+	}
+	img#img_mini{
+	height: 144px;
+	width: 33%;
+	}
+}
+
+@media all and (max-width:850px) {
+
+	div#matice1{
+	height: 120px;
+	margin-top: 6em;
+}
+	div#matice2{
+	height: 114px;
+	margin-top: 6em;
+}
+
+	div#logo{
+	width: 28%;
+	top: 3.1em;
+	}
+img#img_mini{
+	height: 114px;
+	width: 33%;
+	}
+	div#contenedor{
+	width: 70%;
+}
+
+section#contacto{
+	width: 35%;
+}
+	
+}
+
+@media all and (max-width:750px) {
+
+	#matice1, #matice2, #texto_video{
+		display: none;
+	}
+		div#logo{
+	width: 30%;
+	top: 3.5em;
+	}
+	/*div#matice1{
+	height: 120px;
+	margin-top: 5em;
+}
+	div#matice2{
+	height: 114px;
+	margin-top: 5em;
+}*/
+
+
+img#img_mini{
+	height: 114px;
+	width: 33%;
+	}
+	div#contenedor{
+	width: 80%;
+}
+
+	section#secundaria{
+	width: 100%;
+	}
+		article#cooperativas{
+	background-color: #ccc;
+	border-radius: 5px;
+
+	box-shadow: -1px 1px 5px #000;
+
+	margin-top: 10px;
+	padding: 3px;
+	width: 40%;
+}
+
+iframe#video{
+	width: 100%;
+	}
+section#contacto{
+	margin: 15px auto;
+	width: 40%;
+}
+	
+}
+
+@media all and (max-width:450px) {
+
+	div#matice1, #matice2, #contenedor, #texto_video, #icono,
+	div#img_central, #menu, #cambiar_idioma{
+	display: none;
+}
+	#menu_phone{
+	background-color: #ccc;
+	display: inline;
+	height: 30px;
+	position: absolute;
+	opacity: 0.7;
+	text-align: right;
+	margin:185px 0 0 270px;
+	z-index: 2;
+	}
+
+	div#logo{
+	margin-left: 10px;
+	top: 50px;
+	width: 300px;
+	}
+	section#principal{
+	height: 200px;
+	}
+	img#img_principal{
+	height: 200px;
+    }
+	section#secundaria{
+	width: 100%;
+	}
+    div#menu_areas{
+    	background-color: #fff;
+    	margin-top: 5px;
+    }
+	article#cooperativas{
+	background-color: #ccc;
+	border-radius: 5px;
+	
+	box-shadow: -1px 1px 5px #000;
+	margin-top: 10px;
+	padding: 3px;
+	width: 90%;
+}
+
+	iframe#video{
+	width: 100%;
+	}
+
+	section#contacto{
+	margin: 15px auto;
+	padding: 0;
+	width: 90%;
+
+	background-color: #159C49;
+	border-radius: 5px;
+	
+	box-shadow: -1px 1px 5px #000;
+	margin-top: 10px;
+	padding: 3px;
+	width: 90%;
+}
+	#contacto form input, form textarea{
+	margin: 3px;
+	padding: 3px;
+	width: 95%;
+}
+
+	
+}
+
+@media all and (max-width:30px) {
+
+	div#matice1, #matice2, #contenedor, #texto_video, #icono,
+	div#img_central, #menu, #cambiar_idioma, #pie{
+	display: none;
+}
+	#menu_phone{
+	background-color: #ccc;
+	display: inline;
+	height: 30px;
+	position: absolute;
+	opacity: 0.7;
+	text-align: right;
+	margin:180px 0 0 150px;
+	z-index: 2;
+	}
+
+	div#logo{
+	margin-left:15px;
+	top: 50px;
+	width: 280px;
+	}
+	section#principal{
+	height: 200px;
+	}
+	img#img_principal{
+	height: 200px;
+    }
+	section#secundaria{
+	width: 100%;
+	}
+    div#menu_areas{
+    	background-color: #fff;
+    	margin-top: 5
+    }
+	article#cooperativas{
+	background-color: #ccc;
+	border-radius: 5px;
+	box-shadow: -1px 1px 5px #000;
+	margin-top: 10px;
+	padding: 3px;
+	width: 90%;
+}
+
+	iframe#video{
+	width: 100%;
+	}
+
+	section#contacto{
+	margin: 15px auto;
+	padding: 0;
+	width: 90%;
+
+	background-color: #159C49;
+	border-radius: 5px;
+
+	box-shadow: -1px 1px 5px #000;
+	margin-top: 10px;
+	padding: 3px;
+	width: 90%;
+}
+
+	
+}
